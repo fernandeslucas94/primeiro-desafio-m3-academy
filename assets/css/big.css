@@ -1,0 +1,664 @@
+@media (min-width: 721px) and (max-width: 768px) {
+    body {
+        background-color: var(--body-background);
+    }
+
+
+    /* ### PAGE HEADER STYLES ### */
+    .page-header {
+        background-color: var(--page-header-background);
+
+        height: 100px;
+        width: 100vw;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+
+    /* ### IMAGE ON TOP OF THE PAGE ### */
+    /* .top-image-container img {
+        width: 100vw;
+        height: 598px;
+    } */
+
+    
+    .small-laptop-image {
+        display: none;
+    }
+
+    .large-laptop-image {
+        display: inline;
+
+        width: 100%;
+        height: 34rem;
+    }
+
+
+    /* ### ABOUT SECTION ### */
+    #about {
+        height: 45rem;
+        width: 100vw;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-container {
+        display: flex;
+
+        height: 700px;
+
+        margin-left: 31px;
+        margin-right: 26px;
+        margin-top: 38em;
+    }
+
+    .about-container h2{
+        font-weight: 400;
+        font-size: 2rem;
+
+        text-transform: uppercase;
+    }
+
+    .about-container h1 {
+        font-weight: 500;
+        font-size: 2.8rem;
+
+        text-transform: uppercase;
+    }
+
+    .about-container p {
+        font-size: 1.6rem;
+        font-weight: 400;
+
+        margin-top: 1.9rem;
+        margin-bottom: 76px;
+    }
+
+    .about-container img {
+        width: 25rem;
+        height: 25rem;
+
+        margin-bottom: 156px;
+    }
+    
+    h1, h2 {
+        margin-left: -7rem;
+    }
+
+    .title-and-text-container {
+        height: 35rem;
+        width: 30rem;
+
+        margin-left: -3rem;
+        margin-right: 5rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+
+
+    /* ### SERVICES DESCRIPTION STYLING ### */
+    #services-description {
+        width: 100vw;
+        height: 120rem;
+
+        background-color: var(--services-description-background);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services-description-content {
+        width: 45em;
+        height: 32rem;
+
+        background-color: #FFF;
+
+        margin-bottom: 1.6rem;
+        margin-top: 3.7rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
+    }
+
+    .services-description-content img {
+        width: 9rem;
+        height: 10.2rem;
+
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .services-description-content p {
+        font-size: 1.7rem;
+        font-weight: 400;
+        
+        text-align: center;
+    }
+
+    .text-container {
+        width: 75%;
+        height: 40%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: -1rem;
+    }
+
+
+
+
+
+    /* ### SECOND IMAGE STYLING ### */
+    .second-image-container img{
+        background-size: cover;
+
+        width: 100%;
+        height: 37rem;
+    }
+
+
+
+
+
+
+    /* ### SECOND AREA OF CONTENT STYLING ### */
+    #second-area-of-content {
+        background: linear-gradient(180deg, #00C8FF 0%, #15ACD6 100%);
+        
+        width: 100vw;
+        height: 141rem;
+
+        position: absolute;
+        top: 260rem;
+    }
+
+    .second-content-area-container {
+        width: 100vw;
+        height: 152rem;
+
+        position: absolute;
+
+        bottom: -3rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second-content-data {
+        width: 45em;
+        height: 32rem;
+
+        background-color: #FFF;
+
+        margin-bottom: 1.6rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
+    }
+
+    .second-content-data img {
+        width: 9rem;
+        height: 10.2rem;
+
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .second-content-data p {
+        font-size: 1.4rem;
+
+        line-height: 2.4rem;
+
+        text-align: center;
+    }
+
+
+
+
+
+    /* ### THIRD IMAGE STYLING ### */
+    #third-image img {
+        position: absolute;
+
+        width: 100vw;
+        height: 53rem;
+
+        bottom: -410rem;
+    }
+
+
+
+
+
+    /* ### PAGE BOTTOM TEXT ### */
+    #bottom-text-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        position: absolute;
+
+        bottom: -428rem;
+    }
+
+    .bottom-content-container {
+        margin-left: 3.1rem;
+        margin-right: 3.3rem;
+        margin-top: 5.1rem;
+    }
+
+    .bottom-content-container h1 {
+        font-size: 2.6rem;
+        font-weight: 600;
+
+        margin-bottom: 1.8rem;
+        margin-left: 0rem;
+    }
+
+    .bottom-content-container p {
+        font-size: 1.6em;
+        font-weight: 400;
+    }
+
+
+
+
+
+    /* ### FOOTER ### */
+    #page-footer {
+        width: 100vw;
+        height: 12.8rem;
+
+        background-color: #000;
+
+        position: absolute;
+
+        bottom: -455rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #page-footer p {
+        color: #BDBDBD;
+
+        text-align: center;
+
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.2rem;
+        text-transform: uppercase;
+    }
+
+    .images-container {
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        width: 20rem;
+
+        margin-left: 2.6rem;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+}
+
+
+
+
+
+@media (min-width: 769px) and (max-width: 900px) {
+    body {
+        background-color: var(--body-background);
+    }
+
+
+    /* ### PAGE HEADER STYLES ### */
+    .page-header {
+        background-color: var(--page-header-background);
+
+        height: 100px;
+        width: 100vw;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+
+    /* ### IMAGE ON TOP OF THE PAGE ### */
+    /* .top-image-container img {
+        width: 100vw;
+        height: 598px;
+    } */
+
+    .small-laptop-image {
+        display: none;
+    }
+
+    .large-laptop-image {
+        display: inline;
+
+        width: 100%;
+        height: 34rem;
+    }
+
+
+
+
+    /* ### ABOUT SECTION ### */
+    #about {
+        height: 45rem;
+        width: 100vw;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-container {
+        display: flex;
+
+        height: 700px;
+
+        margin-left: 31px;
+        margin-right: 26px;
+        margin-top: 38em;
+    }
+
+    .about-container h2{
+        font-weight: 400;
+        font-size: 2rem;
+
+        text-transform: uppercase;
+    }
+
+    .about-container h1 {
+        font-weight: 500;
+        font-size: 2.8rem;
+
+        text-transform: uppercase;
+    }
+
+    .about-container p {
+        font-size: 1.6rem;
+        font-weight: 400;
+
+        margin-top: 1.9rem;
+        margin-bottom: 76px;
+    }
+
+    .about-container img {
+        width: 25rem;
+        height: 25rem;
+
+        margin-bottom: 156px;
+    }
+    
+    h1, h2 {
+        margin-left: -7rem;
+    }
+
+    .title-and-text-container {
+        height: 35rem;
+        width: 30rem;
+
+        margin-left: -3rem;
+        margin-right: 5rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+
+
+    /* ### SERVICES DESCRIPTION STYLING ### */
+    #services-description {
+        width: 100vw;
+        height: 120rem;
+
+        background-color: var(--services-description-background);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services-description-content {
+        width: 52rem;
+        height: 33rem;
+
+        background-color: #FFF;
+
+        margin-bottom: 1.6rem;
+        margin-top: 3.7rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
+    }
+
+    .services-description-content img {
+        width: 9rem;
+        height: 10.2rem;
+
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .services-description-content p {
+        font-size: 1.9rem;
+        font-weight: 400;
+        
+        text-align: center;
+    }
+
+    .text-container {
+        width: 75%;
+        height: 40%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: -1rem;
+    }
+
+
+
+
+
+    /* ### SECOND IMAGE STYLING ### */
+    .second-image-container img{
+        background-size: cover;
+
+        width: 100vw;
+        height: 37rem;
+    }
+
+
+
+
+
+
+    /* ### SECOND AREA OF CONTENT STYLING ### */
+    #second-area-of-content {
+        background: linear-gradient(180deg, #00C8FF 0%, #15ACD6 100%);
+        
+        width: 100vw;
+        height: 141rem;
+
+        position: absolute;
+        top: 262rem;
+    }
+
+    .second-content-area-container {
+        width: 100vw;
+        height: 152rem;
+
+        position: absolute;
+
+        bottom: -3rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second-content-data {
+        width: 52rem;
+        height: 33rem;
+
+        background-color: #FFF;
+
+        margin-bottom: 1.6rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
+    }
+
+    .second-content-data img {
+        width: 9rem;
+        height: 10.2rem;
+
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .second-content-data p {
+        font-size: 1.7rem;
+
+        line-height: 2.4rem;
+
+        text-align: center;
+    }
+
+
+
+
+
+    /* ### THIRD IMAGE STYLING ### */
+    #third-image img {
+        position: absolute;
+
+        width: 100vw;
+        height: 53rem;
+
+        bottom: -410rem;
+    }
+
+
+
+
+
+    /* ### PAGE BOTTOM TEXT ### */
+    #bottom-text-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        position: absolute;
+
+        bottom: -430rem;
+    }
+
+    .bottom-content-container {
+        margin-left: 3.1rem;
+        margin-right: 3.3rem;
+        margin-top: 5.1rem;
+    }
+
+    .bottom-content-container h1 {
+        font-size: 2rem;
+        font-weight: 600;
+
+        margin-bottom: 1.8rem;
+        margin-left: 0rem;
+    }
+
+    .bottom-content-container p {
+        font-size: 1.7em;
+        font-weight: 400;
+    }
+
+
+
+
+
+    /* ### FOOTER ### */
+    #page-footer {
+        width: 100vw;
+        height: 12.8rem;
+
+        background-color: #000;
+
+        position: absolute;
+
+        bottom: -458rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #page-footer p {
+        color: #BDBDBD;
+
+        text-align: center;
+
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.2rem;
+        text-transform: uppercase;
+    }
+
+    .images-container {
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        width: 20rem;
+
+        margin-left: 2.6rem;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+}
