@@ -1,5 +1,380 @@
-@media (min-width: 901px) {
+@media (min-width: 901px) and (max-width: 999px) {
 
+
+    /* ### PAGE HEADER STYLES ### */
+    .page-header {
+        background-color: var(--page-header-background);
+
+        height: 100px;
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+
+    /* ### IMAGE ON TOP OF THE PAGE ### */
+    /* .top-image-container img {
+        width: 100vw;
+        height: 598px;
+    } */
+
+    .small-laptop-image {
+        display: none;
+    }
+
+    .large-laptop-image {
+        display: inline;
+
+        width: 100%;
+        height: 42rem;
+    }
+
+
+
+
+    /* ### ABOUT SECTION ### */
+    #about {
+        height: 43.5rem;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-container {
+        display: flex;
+
+        height: 700px;
+
+        margin-left: 31px;
+        margin-right: 26px;
+        margin-top: 38em;
+    }
+
+    .about-container .upper-title-small{
+        font-weight: 400;
+        font-size: 2rem;
+
+        text-transform: uppercase;
+    }
+
+    .about-container h1 {
+        font-weight: 500;
+        font-size: 2.8rem;
+
+        text-transform: uppercase;
+    }
+
+    .about-container .about-description {
+        font-size: 1.6rem;
+        font-weight: 400;
+
+        margin-top: 1.9rem;
+        margin-bottom: 76px;
+    }
+
+    .about-container img {
+        width: 25rem;
+        height: 25rem;
+
+        margin-bottom: 156px;
+    }
+    
+    h1, .upper-title-small {
+        margin-left: -26.6rem;
+    }
+
+    .title-and-text-container {
+        height: 20rem;
+        width: 55rem;
+
+        margin-left: -3rem;
+        margin-right: 5rem;
+        margin-top: 3rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        padding: 1rem;
+    }
+
+    .title-and-text-container .about-description {
+        margin-bottom: -6.5rem;
+
+        text-align: justify;
+    }
+
+
+
+    
+    /* ### SERVICES DESCRIPTION STYLING ### */
+    #services-description {
+        width: 100%;
+        height: 43.5rem;
+
+        background-color: var(--services-description-background);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .services-container {
+        /* width: 120rem; */
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services-description-content {
+        width: 26rem;
+        height: 22rem;
+
+        background-color: #FFF;
+
+        margin-bottom: 1.6rem;
+        margin-top: 3.7rem;
+        margin-right: 21px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
+    }
+
+    .services-description-content img {
+        width: 7rem;
+        height: 10.2rem;
+
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .services-description-content p {
+        font-size: 1.5rem;
+        font-weight: 400;
+        
+        text-align: center;
+    }
+
+    .text-container {
+        width: 75%;
+        height: 40%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: -1rem;
+    }
+
+
+
+
+
+    /* ### SECOND IMAGE STYLING ### */
+    .second-image-container img{
+        background-size: cover;
+
+        width: 100%;
+        height: 52rem;
+    }
+
+    .half-closed-computer-small {
+        display: none;
+    }
+
+
+
+
+
+
+    /* ### SECOND AREA OF CONTENT STYLING ### */
+    #second-area-of-content {
+        background: linear-gradient(180deg, #00C8FF 0%, #15ACD6 100%);
+        
+        width: 100%;
+        height: 70rem;
+
+        position: absolute;
+        top: 208rem;
+    }
+
+    .second-content-area-container {
+        width: 100%;
+        height: 152rem;
+
+        position: absolute;
+
+        bottom: -8rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-of-cards {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        position: absolute;
+        bottom: 26rem;
+
+        width: 85%;
+    }
+
+    .second-content-data {
+        width: 37rem;
+        height: 28rem;
+
+        background-color: #FFF;
+
+        margin-bottom: 1.6rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
+    }
+
+    .second-content-data img {
+        width: 8rem;
+        height: 10.2rem;
+
+        padding-top: 2rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .second-content-data p {
+        font-size: 1.4rem;
+
+        line-height: 2.4rem;
+
+        text-align: center;
+    }
+
+
+
+
+
+    /* ### THIRD IMAGE STYLING ### */
+    #third-image img {
+        position: absolute;
+
+        width: 33rem;
+        height: 33rem;
+
+        bottom: -260rem;
+
+        margin-left: 17rem;
+        margin-top: -14rem;
+    }
+
+
+
+
+
+    /* ### PAGE BOTTOM TEXT ### */
+    #bottom-text-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: absolute;
+
+        bottom: -230rem;
+    }
+
+    .bottom-content-container {
+        width: 31rem;
+        height: 23rem;
+
+        left: 56rem;
+        bottom: -26rem;
+
+        position: absolute;
+    }
+
+    .bottom-content-container h1 {
+        font-size: 2.3rem;
+        font-weight: 600;
+
+        margin-bottom: 1.8rem;
+        margin-left: 0rem;
+    }
+
+    .bottom-content-container p {
+        font-size: 1.4em;
+        font-weight: 400;
+    }
+
+
+
+
+
+    /* ### FOOTER ### */
+    #page-footer {
+        width: 100%;
+        height: 12.8rem;
+
+        background-color: #000;
+
+        position: absolute;
+
+        bottom: -280rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #page-footer p {
+        color: #BDBDBD;
+
+        text-align: center;
+
+        margin-top: -1.2em;
+        margin-left: -4rem;
+
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        text-transform: uppercase;
+    }
+
+    .images-container {
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        width: 20rem;
+
+        margin-left: 2.6rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 1000px) and (max-width: 1280px) {
 
     /* ### PAGE HEADER STYLES ### */
     .page-header {
@@ -277,9 +652,9 @@
         width: 33rem;
         height: 33rem;
 
-        bottom: -256rem;
+        bottom: -260rem;
 
-        margin-left: 23rem;
+        margin-left: 17rem;
         margin-top: -14rem;
     }
 
@@ -302,7 +677,380 @@
         width: 31rem;
         height: 23rem;
 
-        left: 65rem;
+        left: 56rem;
+        bottom: -26rem;
+
+        position: absolute;
+    }
+
+    .bottom-content-container h1 {
+        font-size: 2.3rem;
+        font-weight: 600;
+
+        margin-bottom: 1.8rem;
+        margin-left: 0rem;
+    }
+
+    .bottom-content-container p {
+        font-size: 1.4em;
+        font-weight: 400;
+    }
+
+
+
+
+
+    /* ### FOOTER ### */
+    #page-footer {
+        width: 100%;
+        height: 12.8rem;
+
+        background-color: #000;
+
+        position: absolute;
+
+        bottom: -280rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #page-footer p {
+        color: #BDBDBD;
+
+        text-align: center;
+
+        margin-top: -1.2em;
+        margin-left: -4rem;
+
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        text-transform: uppercase;
+    }
+
+    .images-container {
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        width: 20rem;
+
+        margin-left: 2.6rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+
+
+
+
+@media (min-width: 1281px) and (max-width: 1920px) {
+    /* ### PAGE HEADER STYLES ### */
+    .page-header {
+        background-color: var(--page-header-background);
+
+        height: 100px;
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+
+    /* ### IMAGE ON TOP OF THE PAGE ### */
+    /* .top-image-container img {
+        width: 100vw;
+        height: 598px;
+    } */
+
+    .small-laptop-image {
+        display: none;
+    }
+
+    .large-laptop-image {
+        display: inline;
+
+        width: 100%;
+        height: 42rem;
+    }
+
+
+
+
+    /* ### ABOUT SECTION ### */
+    #about {
+        height: 43.5rem;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-container {
+        display: flex;
+
+        height: 700px;
+
+        margin-left: 31px;
+        margin-right: 26px;
+        margin-top: 38em;
+    }
+
+    .about-container .upper-title-small{
+        font-weight: 400;
+        font-size: 2rem;
+
+        text-transform: uppercase;
+    }
+
+    .about-container h1 {
+        font-weight: 500;
+        font-size: 2.8rem;
+
+        text-transform: uppercase;
+    }
+
+    .about-container .about-description {
+        font-size: 1.6rem;
+        font-weight: 400;
+
+        margin-top: 1.9rem;
+        margin-bottom: 76px;
+    }
+
+    .about-container img {
+        width: 25rem;
+        height: 25rem;
+
+        margin-bottom: 156px;
+    }
+    
+    h1, .upper-title-small {
+        margin-left: -26.6rem;
+    }
+
+    .title-and-text-container {
+        height: 20rem;
+        width: 55rem;
+
+        margin-left: -3rem;
+        margin-right: 5rem;
+        margin-top: 3rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        padding: 1rem;
+    }
+
+    .title-and-text-container .about-description {
+        margin-bottom: -6.5rem;
+
+        text-align: justify;
+    }
+
+
+
+    
+    /* ### SERVICES DESCRIPTION STYLING ### */
+    #services-description {
+        width: 100%;
+        height: 43.5rem;
+
+        background-color: var(--services-description-background);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .services-container {
+        /* width: 120rem; */
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services-description-content {
+        width: 26rem;
+        height: 22rem;
+
+        background-color: #FFF;
+
+        margin-bottom: 1.6rem;
+        margin-top: 3.7rem;
+        margin-right: 21px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
+    }
+
+    .services-description-content img {
+        width: 7rem;
+        height: 10.2rem;
+
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .services-description-content p {
+        font-size: 1.5rem;
+        font-weight: 400;
+        
+        text-align: center;
+    }
+
+    .text-container {
+        width: 75%;
+        height: 40%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: -1rem;
+    }
+
+
+
+
+
+    /* ### SECOND IMAGE STYLING ### */
+    .second-image-container img{
+        background-size: cover;
+
+        width: 100%;
+        height: 52rem;
+    }
+
+    .half-closed-computer-small {
+        display: none;
+    }
+
+
+
+
+
+
+    /* ### SECOND AREA OF CONTENT STYLING ### */
+    #second-area-of-content {
+        background: linear-gradient(180deg, #00C8FF 0%, #15ACD6 100%);
+        
+        width: 100%;
+        height: 70rem;
+
+        position: absolute;
+        top: 208rem;
+    }
+
+    .second-content-area-container {
+        width: 100%;
+        height: 152rem;
+
+        position: absolute;
+
+        bottom: -8rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-of-cards {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        position: absolute;
+        bottom: 26rem;
+
+        width: 85%;
+    }
+
+    .second-content-data {
+        width: 40rem;
+        height: 28rem;
+
+        background-color: #FFF;
+
+        margin-bottom: 1.6rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
+    }
+
+    .second-content-data img {
+        width: 9rem;
+        height: 10.2rem;
+
+        padding-top: 2rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .second-content-data p {
+        font-size: 1.4rem;
+
+        line-height: 2.4rem;
+
+        text-align: center;
+    }
+
+
+
+
+
+    /* ### THIRD IMAGE STYLING ### */
+    #third-image img {
+        position: absolute;
+
+        width: 33rem;
+        height: 33rem;
+
+        bottom: -260rem;
+
+        margin-left: 17rem;
+        margin-top: -14rem;
+    }
+
+
+
+
+
+    /* ### PAGE BOTTOM TEXT ### */
+    #bottom-text-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: absolute;
+
+        bottom: -230rem;
+    }
+
+    .bottom-content-container {
+        width: 31rem;
+        height: 23rem;
+
+        left: 56rem;
         bottom: -26rem;
 
         position: absolute;

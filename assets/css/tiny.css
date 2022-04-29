@@ -36,6 +36,8 @@
 
     .small-laptop-image {
         display: inline-block;
+
+        width: 100%;
     }
 
     .large-laptop-image {
@@ -66,9 +68,11 @@
         margin-top: 10rem;
     }
 
-    .about-container h2{
+    .about-container .upper-title-small {
         font-weight: 400;
         font-size: 2rem;
+
+        margin-bottom: 0rem;
 
         text-transform: uppercase;
     }
@@ -77,6 +81,8 @@
         font-weight: 500;
         font-size: 2.8rem;
 
+        margin-bottom: 1.3rem;
+
         text-transform: uppercase;
     }
 
@@ -84,8 +90,9 @@
         font-size: 1.6rem;
         font-weight: 400;
 
+        margin-bottom: 3rem;
+
         margin-top: 1.9rem;
-        margin-bottom: 76px;
     }
 
     .about-container img {
@@ -157,8 +164,13 @@
         height: 35.5rem;
     }
 
+    .half-closed-computer-small {
+        display: block;
+    }
 
-
+    .half-closed-computer-large {
+        display: none;
+    }
 
 
 
@@ -170,7 +182,7 @@
         height: 110rem;
 
         position: absolute;
-        top: 287.8rem;
+        top: 275rem;
     }
 
     .second-content-area-container {
