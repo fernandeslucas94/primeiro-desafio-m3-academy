@@ -15,18 +15,6 @@
         justify-content: center;
         align-items: center;
     }
-
-
-
-
-
-
-    /* ### IMAGE ON TOP OF THE PAGE ### */
-    /* .top-image-container img {
-        width: 100vw;
-        height: 598px;
-    } */
-
     
     .small-laptop-image {
         display: none;
@@ -204,7 +192,7 @@
 
         position: absolute;
 
-        bottom: -349rem;
+        bottom: -341rem;
 
         display: flex;
         flex-direction: column;
@@ -519,7 +507,7 @@
 
         position: absolute;
 
-        bottom: -348rem;
+        bottom: -341rem;
 
         display: flex;
         flex-direction: column;

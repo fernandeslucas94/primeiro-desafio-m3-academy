@@ -206,7 +206,7 @@
 
         position: absolute;
 
-        bottom: -228rem;
+        bottom: -218rem;
 
         display: flex;
         align-items: center;
@@ -352,12 +352,6 @@
     }
 
 
-
-    /* ### IMAGE ON TOP OF THE PAGE ### */
-    /* .top-image-container img {
-        width: 100vw;
-        height: 598px;
-    } */
 
     .small-laptop-image {
         display: none;
@@ -550,7 +544,7 @@
 
         position: absolute;
 
-        bottom: -226rem;
+        bottom: -219rem;
 
         display: flex;
         align-items: center;
