@@ -15,9 +15,6 @@
 
 
 
-
-
-
     /* ### IMAGE ON TOP OF THE PAGE ### */
     /* .top-image-container img {
         width: 100vw;
@@ -34,7 +31,6 @@
         width: 100%;
         height: 42rem;
     }
-
 
 
 
@@ -114,7 +110,6 @@
     }
 
 
-
     
     /* ### SERVICES DESCRIPTION STYLING ### */
     #services-description {
@@ -181,8 +176,6 @@
 
 
 
-
-
     /* ### SECOND IMAGE STYLING ### */
     .second-image-container img{
         background-size: cover;
@@ -197,9 +190,6 @@
 
 
 
-
-
-
     /* ### SECOND AREA OF CONTENT STYLING ### */
     #second-area-of-content {
         background: linear-gradient(180deg, #00C8FF 0%, #15ACD6 100%);
@@ -207,8 +197,7 @@
         width: 100%;
         height: 70rem;
 
-        position: absolute;
-        top: 208rem;
+        margin-top: 14.2rem;
     }
 
     .second-content-area-container {
@@ -217,7 +206,7 @@
 
         position: absolute;
 
-        bottom: -8rem;
+        bottom: -228rem;
 
         display: flex;
         align-items: center;
@@ -268,44 +257,14 @@
 
 
 
-
-
-    /* ### THIRD IMAGE STYLING ### */
-    #third-image img {
-        position: absolute;
-
-        width: 33rem;
-        height: 33rem;
-
-        bottom: -260rem;
-
-        margin-left: 17rem;
-        margin-top: -14rem;
-    }
-
-
-
-
-
     /* ### PAGE BOTTOM TEXT ### */
-    #bottom-text-content {
+    .bottom-content-container {
         display: flex;
         align-items: center;
         justify-content: center;
 
-        position: absolute;
-
-        bottom: -230rem;
-    }
-
-    .bottom-content-container {
-        width: 31rem;
-        height: 23rem;
-
-        left: 56rem;
-        bottom: -26rem;
-
-        position: absolute;
+        margin-top: 14.2rem;
+        margin-bottom: 17.9rem;
     }
 
     .bottom-content-container h1 {
@@ -321,7 +280,18 @@
         font-weight: 400;
     }
 
+    .bottom-image {
+        width: 29.8rem;
+        height: 29.8rem;
+    }
 
+
+    .title-and-paragraph {
+        width: 50rem;
+        height: 20rem;
+
+        margin-left: 4rem;
+    }
 
 
 
@@ -331,10 +301,6 @@
         height: 12.8rem;
 
         background-color: #000;
-
-        position: absolute;
-
-        bottom: -280rem;
 
         display: flex;
         align-items: center;
@@ -371,9 +337,6 @@
 
 
 
-
-
-
 @media (min-width: 1000px) and (max-width: 1280px) {
 
     /* ### PAGE HEADER STYLES ### */
@@ -387,9 +350,6 @@
         justify-content: center;
         align-items: center;
     }
-
-
-
 
 
 
@@ -409,7 +369,6 @@
         width: 100%;
         height: 42rem;
     }
-
 
 
 
@@ -581,9 +540,8 @@
         
         width: 100%;
         height: 70rem;
-
-        position: absolute;
-        top: 208rem;
+        
+        margin-top: 14.2rem;
     }
 
     .second-content-area-container {
@@ -592,7 +550,7 @@
 
         position: absolute;
 
-        bottom: -8rem;
+        bottom: -226rem;
 
         display: flex;
         align-items: center;
@@ -641,46 +599,16 @@
         text-align: center;
     }
 
-
-
-
-
-    /* ### THIRD IMAGE STYLING ### */
-    #third-image img {
-        position: absolute;
-
-        width: 33rem;
-        height: 33rem;
-
-        bottom: -260rem;
-
-        margin-left: 17rem;
-        margin-top: -14rem;
-    }
-
-
-
-
+    
 
     /* ### PAGE BOTTOM TEXT ### */
-    #bottom-text-content {
+    .bottom-content-container {
         display: flex;
         align-items: center;
         justify-content: center;
 
-        position: absolute;
-
-        bottom: -230rem;
-    }
-
-    .bottom-content-container {
-        width: 31rem;
-        height: 23rem;
-
-        left: 56rem;
-        bottom: -26rem;
-
-        position: absolute;
+        margin-top: 14.2rem;
+        margin-bottom: 17.9rem;
     }
 
     .bottom-content-container h1 {
@@ -696,7 +624,18 @@
         font-weight: 400;
     }
 
+    .bottom-image {
+        width: 29.8rem;
+        height: 29.8rem;
+    }
 
+
+    .title-and-paragraph {
+        width: 50rem;
+        height: 20rem;
+
+        margin-left: 4rem;
+    }
 
 
 
@@ -706,10 +645,6 @@
         height: 12.8rem;
 
         background-color: #000;
-
-        position: absolute;
-
-        bottom: -280rem;
 
         display: flex;
         align-items: center;
@@ -955,8 +890,7 @@
         width: 100%;
         height: 70rem;
 
-        position: absolute;
-        top: 208rem;
+        margin-top: 14.2rem;
     }
 
     .second-content-area-container {
@@ -965,7 +899,7 @@
 
         position: absolute;
 
-        bottom: -8rem;
+        bottom: -218rem;
 
         display: flex;
         align-items: center;
@@ -1016,44 +950,15 @@
 
 
 
-
-
-    /* ### THIRD IMAGE STYLING ### */
-    #third-image img {
-        position: absolute;
-
-        width: 33rem;
-        height: 33rem;
-
-        bottom: -260rem;
-
-        margin-left: 17rem;
-        margin-top: -14rem;
-    }
-
-
-
-
-
     /* ### PAGE BOTTOM TEXT ### */
-    #bottom-text-content {
+
+    .bottom-content-container {
         display: flex;
         align-items: center;
         justify-content: center;
 
-        position: absolute;
-
-        bottom: -230rem;
-    }
-
-    .bottom-content-container {
-        width: 31rem;
-        height: 23rem;
-
-        left: 56rem;
-        bottom: -26rem;
-
-        position: absolute;
+        margin-top: 14.2rem;
+        margin-bottom: 17.9rem;
     }
 
     .bottom-content-container h1 {
@@ -1069,8 +974,18 @@
         font-weight: 400;
     }
 
+    .bottom-image {
+        width: 29.8rem;
+        height: 29.8rem;
+    }
 
 
+    .title-and-paragraph {
+        width: 50rem;
+        height: 20rem;
+
+        margin-left: 4rem;
+    }
 
 
     /* ### FOOTER ### */
@@ -1079,10 +994,6 @@
         height: 12.8rem;
 
         background-color: #000;
-
-        position: absolute;
-
-        bottom: -280rem;
 
         display: flex;
         align-items: center;

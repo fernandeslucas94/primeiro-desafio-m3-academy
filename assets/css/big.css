@@ -195,8 +195,7 @@
         width: 100vw;
         height: 141rem;
 
-        position: absolute;
-        top: 260rem;
+        margin-top: 13.5rem;
     }
 
     .second-content-area-container {
@@ -205,7 +204,7 @@
 
         position: absolute;
 
-        bottom: -3rem;
+        bottom: -349rem;
 
         display: flex;
         flex-direction: column;
@@ -245,41 +244,18 @@
 
 
 
-
-
-    /* ### THIRD IMAGE STYLING ### */
-    #third-image img {
-        position: absolute;
-
-        width: 100vw;
-        height: 53rem;
-
-        bottom: -410rem;
-    }
-
-
-
-
-
     /* ### PAGE BOTTOM TEXT ### */
-    #bottom-text-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        position: absolute;
-
-        bottom: -428rem;
-    }
-
     .bottom-content-container {
-        margin-left: 3.1rem;
-        margin-right: 3.3rem;
-        margin-top: 5.1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 14.2rem;
+        margin-bottom: 17.9rem;
     }
 
     .bottom-content-container h1 {
-        font-size: 2.6rem;
+        font-size: 2.3rem;
         font-weight: 600;
 
         margin-bottom: 1.8rem;
@@ -287,11 +263,22 @@
     }
 
     .bottom-content-container p {
-        font-size: 1.6em;
+        font-size: 1.4em;
         font-weight: 400;
     }
 
+    .bottom-image {
+        width: 29.8rem;
+        height: 29.8rem;
+    }
 
+
+    .title-and-paragraph {
+        width: 25rem;
+        height: 20rem;
+
+        margin-left: 4rem;
+    }
 
 
 
@@ -301,10 +288,6 @@
         height: 12.8rem;
 
         background-color: #000;
-
-        position: absolute;
-
-        bottom: -455rem;
 
         display: flex;
         align-items: center;
@@ -357,17 +340,6 @@
         justify-content: center;
         align-items: center;
     }
-
-
-
-
-
-
-    /* ### IMAGE ON TOP OF THE PAGE ### */
-    /* .top-image-container img {
-        width: 100vw;
-        height: 598px;
-    } */
 
     .small-laptop-image {
         display: none;
@@ -538,8 +510,7 @@
         width: 100vw;
         height: 141rem;
 
-        position: absolute;
-        top: 262rem;
+        margin-top: 13.5rem;
     }
 
     .second-content-area-container {
@@ -548,7 +519,7 @@
 
         position: absolute;
 
-        bottom: -3rem;
+        bottom: -348rem;
 
         display: flex;
         flex-direction: column;
@@ -588,41 +559,18 @@
 
 
 
-
-
-    /* ### THIRD IMAGE STYLING ### */
-    #third-image img {
-        position: absolute;
-
-        width: 100vw;
-        height: 53rem;
-
-        bottom: -410rem;
-    }
-
-
-
-
-
     /* ### PAGE BOTTOM TEXT ### */
-    #bottom-text-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        position: absolute;
-
-        bottom: -430rem;
-    }
-
     .bottom-content-container {
-        margin-left: 3.1rem;
-        margin-right: 3.3rem;
-        margin-top: 5.1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 14.2rem;
+        margin-bottom: 17.9rem;
     }
 
     .bottom-content-container h1 {
-        font-size: 2rem;
+        font-size: 2.3rem;
         font-weight: 600;
 
         margin-bottom: 1.8rem;
@@ -630,11 +578,22 @@
     }
 
     .bottom-content-container p {
-        font-size: 1.7em;
+        font-size: 1.4em;
         font-weight: 400;
     }
 
+    .bottom-image {
+        width: 29.8rem;
+        height: 29.8rem;
+    }
 
+
+    .title-and-paragraph {
+        width: 25rem;
+        height: 20rem;
+
+        margin-left: 4rem;
+    }
 
 
 
@@ -644,10 +603,6 @@
         height: 12.8rem;
 
         background-color: #000;
-
-        position: absolute;
-
-        bottom: -458rem;
 
         display: flex;
         align-items: center;
